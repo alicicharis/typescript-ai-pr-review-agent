@@ -1,6 +1,10 @@
+import 'dotenv/config';
+import Workflow from './workflow.js';
+
 const main = async () => {
   try {
-    console.log('Starting the application...');
+    const workflow = new Workflow();
+    await workflow.run();
   } catch (error) {
     console.error('Error starting the application:', error);
   }

@@ -2,6 +2,7 @@
   "name": "typescript-ai-pr-review-agent",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +13,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^25.0.3",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
